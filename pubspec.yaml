@@ -35,13 +35,12 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   porcupine_flutter: ^3.0.5
-  # permission_handler: ^11.0.1  # For mic access
-  permission_handler: ^11.3.1 # Make sure you have the latest version
-  whisper_flutter_new: ^0.1.0
-
-  # Add these new dependencies:
-  record: ^0.6.0+1 # For audio recording
+  permission_handler: ^12.0.1 # Make sure you have the latest version
+  whisper_flutter_new: ^1.0.1  
+  record: ^6.0.0 # For audio recording
   path_provider: ^2.1.3 # For getting temporary directory paths
+  
+  # whisper_flutter_plus: ^1.0.0
 
 dev_dependencies:
   flutter_test:
@@ -52,7 +51,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -74,6 +73,7 @@ flutter:
   assets:
     - assets/keywords/Bumblebee_en_android_v3_0_0.ppn
     - assets/models/porcupine_params.pv
+    - assets/models/ggml-tiny.bin
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
