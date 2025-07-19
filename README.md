@@ -1,16 +1,11 @@
-# bumblebee
+# Bumblebee Voice Assistant
 
-A new Flutter project.
+## Features
+- Hotword detection with Porcupine
+- 10s recording + Whisper Tiny transcription
+- Offline, on-device
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup
+1. `flutter pub get`
+2. Add your Picovoice AccessKey in `main.dart`
+3. `flutter run`
